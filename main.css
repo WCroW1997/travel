@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Iowan Old Style";
+  src: url("./fonts/Iowan Old Style") format("ttf");
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 150px 0 288px;
+  background: url("./img/headerLine.svg") no-repeat bottom, linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./img/headerBg.png");
+}
+.header__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header__title {
+  margin: 150px 0 120px;
+  font-family: "Iowan Old Style";
+  font-size: 85px;
+  text-align: center;
+  max-width: 1230px;
+  color: #cc9932;
+}
+
+.logo {
+  width: 320px;
+  height: 380px;
+}
+
+.section__title {
+  font-family: "Iowan Old Style";
+  font-size: 75px;
+  color: #cc9932;
+  font-weight: 400;
+}
+
+.wrapper {
+  margin: 300px 0 130px;
+  position: relative;
+}
+.wrapper__bg {
+  width: 850px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.wrapper__zone {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.wrapper__text {
+  width: 45%;
+}
+.wrapper__text p {
+  font-size: 24px;
+  line-height: 120%;
+  margin-top: 30px;
+}
+.wrapper__img {
+  width: 45%;
+}
+.wrapper__images {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 40px;
+  gap: 50px;
+}
+.wrapper__images img {
+  flex-basis: 30%;
+  width: 30%;
+}/*# sourceMappingURL=main.css.map */
