@@ -106,3 +106,58 @@ img {
 		}
 	}
 }
+
+.target {
+	background: url('./img/targetTop.svg') no-repeat center top,
+		url('./img/targetBot.svg') no-repeat center bottom;
+	color: #fff;
+	padding: 185px 0;
+
+	&__wrapper {
+		background: #062b47;
+		padding: 125px 0;
+	}
+	// .target__cards
+
+	&__cards {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		gap: 30px;
+		margin-top: 100px;
+	}
+
+	// .target__card
+
+	&__card {
+		background: #124c73;
+		height: 670px;
+		padding: 60px 40px 150px;
+		border-radius: 160px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		gap: 30px;
+		& img {
+			width: 200px;
+			height: 200px;
+		}
+
+		& h3 {
+			font-size: 34px;
+			line-height: 110%;
+			font-weight: 400;
+			font-family: 'Iowan Old Style';
+			text-transform: uppercase;
+
+			max-width: 200px;
+		}
+
+		& p {
+			font-size: 20px;
+			line-height: 110%;
+		}
+	}
+}
