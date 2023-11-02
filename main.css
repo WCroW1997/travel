@@ -135,4 +135,61 @@ img {
 .target__card p {
   font-size: 20px;
   line-height: 110%;
+}
+
+.tour {
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+.tour__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+.tour__text {
+  width: 45%;
+}
+.tour__subtitle {
+  font-size: 45px;
+  font-family: "Iowan Old Style";
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.tour__title {
+  text-transform: uppercase;
+}
+.tour__time {
+  font-family: "Iowan Old Style";
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 40px 0;
+}
+.tour__time span {
+  color: #e2a618;
+}
+.tour__desc {
+  font-size: 24px;
+  margin-bottom: 45px;
+}
+.tour__img {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.tour__img img {
+  width: 90%;
+}
+.button {
+  background: #d1a543;
+  color: #fff;
+  border-radius: 100px;
+  border: none;
+  padding: 30px 50px;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
