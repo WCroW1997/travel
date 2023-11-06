@@ -280,3 +280,101 @@
 		}
 	}
 }
+
+.traffic {
+	// .traffic__container
+
+	&__container {
+		position: relative;
+	}
+
+	// .traffic__text
+
+	&__text {
+		margin-top: 50px;
+		font-size: 24px;
+		max-width: 750px;
+		width: 100%;
+
+		p {
+			margin-bottom: 35px;
+		}
+	}
+
+	// .traffic__subtitle
+
+	&__subtitle {
+		font-size: 36px;
+		font-family: 'Iowan Old Style';
+		font-weight: 400;
+	}
+
+	// .traffic__title
+
+	&__title {
+		margin: 70px 0 40px;
+	}
+
+	// .traffic__call
+
+	&__call {
+		max-width: 450px;
+		width: 100%;
+		color: #d1a543;
+		font-family: 'Iowan Old Style';
+		text-transform: uppercase;
+		font-size: 36px;
+	}
+
+	// .traffic__btn
+
+	&__btn {
+		display: inline-block;
+		font-weight: 700;
+		margin-bottom: 75px;
+	}
+
+	// .traffic__img
+
+	&__img {
+		width: 75%;
+		position: absolute;
+		bottom: -30%;
+		right: -10%;
+	}
+}
+
+.footer {
+	background: url('./img/footerBg.png') no-repeat bottom -10px center;
+	padding: 605px 0 60px;
+	// .footer__container
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+
+	// .footer__list
+
+	&__list {
+		display: flex;
+		list-style-type: none;
+		gap: 20px;
+
+		li {
+			background: #fcecd2;
+			width: 50px;
+			height: 50px;
+			border-radius: 100%;
+		}
+	}
+
+	// .footer__logo
+
+	&__logo {
+		img {
+			width: 150px;
+		}
+	}
+}
