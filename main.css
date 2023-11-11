@@ -22,10 +22,20 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
 
 .header {
-  padding: 150px 0 288px;
-  background: url("./img/headerLine.svg") no-repeat bottom, linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./img/headerBg.png");
+  padding: 90px 0 200px;
+  background: url("./img/headerLine.svg") no-repeat bottom -1px center/contain, linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./img/headerBg.png") top -260px center;
+}
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 90px 0 100px;
+  }
 }
 .header__container {
   display: flex;
@@ -34,17 +44,22 @@ img {
   flex-direction: column;
 }
 .header__title {
-  margin: 150px 0 120px;
+  margin: 120px 0 120px;
   font-family: "Iowan Old Style";
-  font-size: 85px;
+  font-size: 75px;
   text-align: center;
   max-width: 1230px;
   color: #cc9932;
 }
+@media screen and (max-width: 1024px) {
+  .header__title {
+    font-size: 55px;
+  }
+}
 
 .logo {
-  width: 320px;
-  height: 380px;
+  width: 230px;
+  height: 270px;
 }
 
 .section__title {
@@ -53,16 +68,31 @@ img {
   color: #cc9932;
   font-weight: 400;
 }
+@media screen and (max-width: 1024px) {
+  .section__title {
+    font-size: 55px;
+  }
+}
 
 .wrapper {
   margin: 300px 0 130px;
   position: relative;
+}
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    margin-top: 200px;
+  }
 }
 .wrapper__bg {
   width: 850px;
   position: absolute;
   bottom: 0;
   right: 0;
+}
+@media screen and (max-width: 1024px) {
+  .wrapper__bg {
+    width: 550px;
+  }
 }
 .wrapper__zone {
   display: flex;
@@ -76,6 +106,11 @@ img {
   font-size: 24px;
   line-height: 120%;
   margin-top: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .wrapper__text p {
+    font-size: 20px;
+  }
 }
 .wrapper__img {
   width: 45%;
@@ -108,6 +143,10 @@ img {
   gap: 30px;
   margin-top: 100px;
 }
+.target__img {
+  width: 200px;
+  height: 200px;
+}
 .target__card {
   background: #124c73;
   height: 670px;
@@ -120,8 +159,13 @@ img {
   text-align: center;
   gap: 30px;
 }
+@media screen and (max-width: 1024px) {
+  .target__card {
+    height: 580px;
+    padding: 0px 30px 70px;
+  }
+}
 .target__card img {
-  width: 200px;
   height: 200px;
 }
 .target__card h3 {
@@ -132,9 +176,19 @@ img {
   text-transform: uppercase;
   max-width: 200px;
 }
+@media screen and (max-width: 1024px) {
+  .target__card h3 {
+    font-size: 26px;
+  }
+}
 .target__card p {
   font-size: 20px;
   line-height: 110%;
+}
+@media screen and (max-width: 1024px) {
+  .target__card p {
+    font-size: 16px;
+  }
 }
 
 .tour {
@@ -156,8 +210,18 @@ img {
   font-weight: 400;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 1024px) {
+  .tour__subtitle {
+    font-size: 40px;
+  }
+}
 .tour__title {
   text-transform: uppercase;
+}
+@media screen and (max-width: 1024px) {
+  .tour__title {
+    font-size: 50px;
+  }
 }
 .tour__time {
   font-family: "Iowan Old Style";
@@ -165,12 +229,24 @@ img {
   text-transform: uppercase;
   margin: 40px 0;
 }
+@media screen and (max-width: 1024px) {
+  .tour__time {
+    font-size: 30px;
+    margin: 30px 0;
+  }
+}
 .tour__time span {
   color: #e2a618;
 }
 .tour__desc {
   font-size: 24px;
   margin-bottom: 45px;
+}
+@media screen and (max-width: 1024px) {
+  .tour__desc {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
 }
 .tour__img {
   width: 45%;
@@ -192,6 +268,11 @@ img {
   font-size: 40px;
   text-transform: uppercase;
   text-decoration: none;
+}
+@media screen and (max-width: 1024px) {
+  .button {
+    font-size: 30px;
+  }
 }
 
 .lectors {
@@ -216,6 +297,11 @@ img {
   text-align: center;
   position: relative;
 }
+@media screen and (max-width: 1024px) {
+  .lectors__card {
+    padding: 150px 20px 80px;
+  }
+}
 .lectors__card img {
   width: 60%;
   position: absolute;
@@ -230,9 +316,19 @@ img {
   font-size: 30px;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 1024px) {
+  .lectors__card h3 {
+    font-size: 26px;
+  }
+}
 .lectors__card p {
   font-size: 20px;
   line-height: 120%;
+}
+@media screen and (max-width: 1024px) {
+  .lectors__card p {
+    font-size: 16px;
+  }
 }
 .lectors__card__main {
   text-transform: uppercase;
@@ -280,6 +376,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 30px;
 }
 .author__text {
   max-width: 750px;
@@ -292,13 +389,28 @@ img {
   font-family: "Iowan Old Style";
   margin-bottom: 30px;
 }
+@media screen and (max-width: 1024px) {
+  .author__subtitle {
+    font-size: 40px;
+  }
+}
 .author__title {
   font-size: 85px;
   margin-bottom: 40px;
 }
+@media screen and (max-width: 1024px) {
+  .author__title {
+    font-size: 65px;
+  }
+}
 .author__desc {
   font-size: 26px;
   margin-bottom: 40px;
+}
+@media screen and (max-width: 1024px) {
+  .author__desc {
+    font-size: 18px;
+  }
 }
 .author__link {
   color: #124c73;
@@ -308,6 +420,11 @@ img {
 .author__img {
   max-width: 450px;
   width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .author__img {
+    max-width: 400px;
+  }
 }
 .author__achiv {
   margin-top: 60px;
@@ -336,6 +453,11 @@ img {
   font-family: "Iowan Old Style";
   margin-top: 20px;
 }
+@media screen and (max-width: 1024px) {
+  .author__card h4 {
+    font-size: 20px;
+  }
+}
 
 .mission {
   margin-top: 150px;
@@ -348,6 +470,11 @@ img {
   max-width: 550px;
   width: 100%;
 }
+@media screen and (max-width: 1024px) {
+  .mission__text {
+    max-width: 460px;
+  }
+}
 .mission__text img {
   width: 30%;
 }
@@ -359,6 +486,11 @@ img {
   font-size: 24px;
   font-family: "Iowan Old Style";
   margin-bottom: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .mission p {
+    font-size: 20px;
+  }
 }
 .mission__img {
   width: 50%;
@@ -384,6 +516,11 @@ img {
   width: 100%;
   font-size: 24px;
 }
+@media screen and (max-width: 1024px) {
+  .phylosophy__text {
+    font-size: 20px;
+  }
+}
 .phylosophy__text p {
   margin-bottom: 30px;
 }
@@ -397,8 +534,13 @@ img {
 .phylosophy__card {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 150px;
+}
+@media screen and (max-width: 1024px) {
+  .phylosophy__card {
+    margin-bottom: 100px;
+  }
 }
 .phylosophy__card img {
   width: 75px;
@@ -406,6 +548,11 @@ img {
 .phylosophy__card p {
   font-size: 26px;
   width: 200px;
+}
+@media screen and (max-width: 1024px) {
+  .phylosophy__card p {
+    font-size: 20px;
+  }
 }
 
 .traffic__container {
@@ -417,6 +564,11 @@ img {
   max-width: 750px;
   width: 100%;
 }
+@media screen and (max-width: 1024px) {
+  .traffic__text {
+    font-size: 20px;
+  }
+}
 .traffic__text p {
   margin-bottom: 35px;
 }
@@ -425,8 +577,18 @@ img {
   font-family: "Iowan Old Style";
   font-weight: 400;
 }
+@media screen and (max-width: 1024px) {
+  .traffic__subtitle {
+    font-size: 30px;
+  }
+}
 .traffic__title {
   margin: 70px 0 40px;
+}
+@media screen and (max-width: 1024px) {
+  .traffic__title {
+    margin: 50px 0 30px;
+  }
 }
 .traffic__call {
   max-width: 450px;
@@ -447,10 +609,22 @@ img {
   bottom: -30%;
   right: -10%;
 }
+@media screen and (max-width: 1440px) {
+  .traffic__img {
+    bottom: -10%;
+    right: 0;
+    width: 60%;
+  }
+}
 
 .footer {
-  background: url("./img/footerBg.png") no-repeat bottom -10px center;
+  background: url("./img/footerBg.png") no-repeat bottom -10px center/110%;
   padding: 605px 0 60px;
+}
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 250px 0 60px;
+  }
 }
 .footer__container {
   display: flex;
