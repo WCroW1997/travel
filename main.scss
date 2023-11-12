@@ -96,6 +96,10 @@ img {
 		margin-bottom: 80px;
 	}
 
+	@media screen and (max-width: 425px) {
+		margin-top: 100px;
+	}
+
 	&__bg {
 		width: 850px;
 		position: absolute;
@@ -157,6 +161,10 @@ img {
 
 		@media screen and (max-width: 768px) {
 			gap: 40px;
+		}
+
+		@media screen and (max-width: 425px) {
+			gap: 25px;
 		}
 
 		img {
@@ -593,6 +601,7 @@ img {
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-start;
+		flex-wrap: wrap;
 		gap: 50px;
 		margin-top: 30px;
 	}
@@ -660,6 +669,10 @@ img {
 	&__title {
 		width: 450px;
 		margin-bottom: 50px;
+
+		@media screen and (max-width: 425px) {
+			width: 100%;
+		}
 	}
 
 	// .mission__img
@@ -702,6 +715,10 @@ img {
 		text-transform: uppercase;
 		width: 450px;
 		margin-bottom: 60px;
+
+		@media screen and (max-width: 425px) {
+			width: 100%;
+		}
 	}
 	// .phylosophy__text
 
@@ -743,6 +760,12 @@ img {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
+			flex-wrap: wrap;
+		}
+
+		@media screen and (max-width: 425px) {
+			justify-content: center;
+			gap: 40px;
 		}
 	}
 
@@ -766,6 +789,10 @@ img {
 
 		img {
 			width: 75px;
+
+			@media screen and (max-width: 425px) {
+				width: 100px;
+			}
 		}
 
 		p {
@@ -869,6 +896,10 @@ img {
 		padding: 250px 0 60px;
 	}
 
+	@media screen and (max-width: 425px) {
+		padding: 150px 0 30px;
+	}
+
 	&__container {
 		display: flex;
 		justify-content: space-between;
@@ -895,6 +926,10 @@ img {
 	&__logo {
 		img {
 			width: 150px;
+
+			@media screen and (max-width: 425px) {
+				width: 75px;
+			}
 		}
 	}
 }

@@ -93,6 +93,11 @@ img {
     margin-bottom: 80px;
   }
 }
+@media screen and (max-width: 425px) {
+  .wrapper {
+    margin-top: 100px;
+  }
+}
 .wrapper__bg {
   width: 850px;
   position: absolute;
@@ -157,6 +162,11 @@ img {
 @media screen and (max-width: 768px) {
   .wrapper__images {
     gap: 40px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .wrapper__images {
+    gap: 25px;
   }
 }
 .wrapper__images img {
@@ -542,6 +552,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
   gap: 50px;
   margin-top: 30px;
 }
@@ -603,6 +614,11 @@ img {
   width: 450px;
   margin-bottom: 50px;
 }
+@media screen and (max-width: 425px) {
+  .mission__title {
+    width: 100%;
+  }
+}
 .mission p {
   font-size: 24px;
   font-family: "Iowan Old Style";
@@ -643,6 +659,11 @@ img {
   width: 450px;
   margin-bottom: 60px;
 }
+@media screen and (max-width: 425px) {
+  .phylosophy__title {
+    width: 100%;
+  }
+}
 .phylosophy__text {
   max-width: 750px;
   width: 100%;
@@ -674,6 +695,13 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 425px) {
+  .phylosophy__cards {
+    justify-content: center;
+    gap: 40px;
   }
 }
 .phylosophy__card {
@@ -698,6 +726,11 @@ img {
 }
 .phylosophy__card img {
   width: 75px;
+}
+@media screen and (max-width: 425px) {
+  .phylosophy__card img {
+    width: 100px;
+  }
 }
 .phylosophy__card p {
   font-size: 26px;
@@ -780,6 +813,11 @@ img {
     padding: 250px 0 60px;
   }
 }
+@media screen and (max-width: 425px) {
+  .footer {
+    padding: 150px 0 30px;
+  }
+}
 .footer__container {
   display: flex;
   justify-content: space-between;
@@ -798,4 +836,9 @@ img {
 }
 .footer__logo img {
   width: 150px;
+}
+@media screen and (max-width: 425px) {
+  .footer__logo img {
+    width: 75px;
+  }
 }/*# sourceMappingURL=main.css.map */
