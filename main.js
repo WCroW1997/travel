@@ -4,6 +4,16 @@ const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
 
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+
+        },
+
+        640: {
+            slidesPerView: 2,
+        },
+    },
 
     // Navigation arrows
     navigation: {
